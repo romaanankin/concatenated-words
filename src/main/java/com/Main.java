@@ -18,7 +18,7 @@ public class Main {
         String secondLongest = allConcatenatedWordsInADict.get(allConcatenatedWordsInADict.size() - 2);
         System.out.println("The number of concatenated words is " + size +
                 " and the longest word is " +
-                longest + "and " + secondLongest + " goes after");
+                longest + " and " + secondLongest + " goes after");
     }
 
     private static List<String> findAllConcatenatedWordsInADict(String[] words) {
